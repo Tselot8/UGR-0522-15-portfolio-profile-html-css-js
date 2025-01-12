@@ -4,29 +4,29 @@
         <title>CV</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
-            <p>My portfolio</p>
-            <ul>
-                <li><a href="https://www.instagram.com/tsel_08?igsh=MTZ3Y3pubGV4ZmhjMw=="><img src=
+            <ul class="container">
+                <li><a href="https://www.instagram.com/tsel_08?igsh=MTZ3Y3pubGV4ZmhjMw=="><img class = "size" src=
                     "images/instagram.jpg"
                         alt="Click to visit this page" ></a>
                 </li>
-                <li><a href="https://www.linkedin.com/in/tselot-million-654093309/"><img src=
+                <li><a href="https://www.linkedin.com/in/tselot-million-654093309/"><img class = "size" src=
                     "images/linkedin.jpg"
                         alt="Click to visit this page" ></a>
                 </li>
-                <li><a href="https://x.com/MillionTse99315"><img src=
+                <li><a href="https://x.com/MillionTse99315"><img class = "size" src=
                     "images/twitter.jpg"
                         alt="Click to visit this page" ></a>
                 </li>
             </ul>
         </header>
         <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Education.html">Educaiton</a></li>
+            <ul class="container">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Education.html">Education</a></li>
                 <li><a href="CV.html">CV</a></li>
                 <li><a href="Adventures.html">Adventures</a></li>
                 <li><a href="Hobbies.html">Hobbies</a></li>
@@ -34,74 +34,67 @@
         </nav>
         <main>
             <h1>CV</h1>
-            <ol>
-                <li>Education
-                    <ul>
-                        <li>Addis Ababa University(02/2023 – 07/2027): Currently attending Addis Ababa Insitute of Technology in the School of
-                            Information Technology and Engineering department. My current GPA is
-                            3.63/4.00.
-                            Software Engineering
-                        </li>
-                        <li>Kotebe University of Education Science Shared Campus(09/2018 – 07/2022)
-                            Graduated from this highschool with a University Entrance Examination (UEE) result of 599/700
-                            and a cumulative GPA of 3.92/4.00.
-                        </li>
-                        <li>Besteseb Academy(year of graduaiton: 2018): Learned my primary education at this school and graduated with a primary school leaving examination result of 87/100</li>
-                    </ul>
-                </li>
-                <li>Skills
-                    <ul>
-                        <li>Basics in Python</li>
-                        <li>Basics in Java</li>
-                        <li>Basics in HTML, CSS and JavaScipt</li>
-                        <li>Basics in Networking</li>
-                        <li>Basics in C</li>
-                    </ul>
-                </li>
-                <li>Certification
-                    <ul>
-                        <li>Certificate of Completion: Introduction to Packet Tracer (Issued by: Cisco Networking Academy - 03/2024):
-                            Successfully completed the course, demonstrating proficiency in network
-                            simulation and troubleshooting using Cisco Packet Tracer.
-                            </li>
-                        <li>Verified Nanodegree Certificate in Programming Fundamentals (Issued by: Udacity - 10/2024)
-                            Successfully completed the Programming Fundamentals course,
-                            demonstrating proficiency in core programming concepts and practical
-                            skills.
-                        </li>
-                    </ul>
-                </li>
-                <li>Extracurricular Activities
-                    <ul>
-                        <li>Tutoring (01/2022 – 05/2022):
-                            I tutored a ninth grader, shared my notes, helped her with home works,
-                            helped her make suitable schedules and improve her lowest grades.
-                        </li>
-                        <li>Volunteering (11/2021 – 04/2022): At Happy Children's Specialized Clinic
-                            I assisted the medical staff by taking vitals, welcoming and guiding
-                            patients at the reception, preparing blood and stool tests and organizing
-                            patient files.
-                        </li>
-                        <li>Active Member in clubs (Interact Club and Social Service Club 11/2019 – 08/2021):
-                            I was a member of the fund raising committee and was able to prepare
-                            events, games and competitions to raise money for charity and school
-                            equipments. Additionally, I was a volunteer who was able to take care of
-                            children at a children's shelter: help them study, wash and braid their
-                            hair and play with them.
-                        </li>
-                    </ul>
-                </li>
-                <li>Language
-                    <ul class="edit">
-                        <li>English - Full professional proficiency</li>
-                        <li>Amharic - Native proficiency</li>
-                    </ul>
-                </li>
-            </ol>
+            <div class="container2">
+                <ul class="cvleft"><h2>Education</h2>
+                    <li>Addis Ababa University(02/2023 – 07/2027): Currently attending Addis Ababa Insitute of Technology in the School of
+                        Information Technology and Engineering department. My current GPA is
+                        3.63/4.00.
+                        Software Engineering
+                    </li>
+                    <li>Kotebe University of Education Science Shared Campus(09/2018 – 07/2022)
+                        Graduated from this highschool with a University Entrance Examination (UEE) result of 599/700
+                        and a cumulative GPA of 3.92/4.00.
+                    </li>
+                    <li>Besteseb Academy(year of graduaiton: 2018): Learned my primary education at this school and graduated with a primary school leaving examination result of 87/100</li>
+                </ul>
+                <ul class="cvmbox"><h2>Skills</h2>
+                    <li>Basics in Python</li>
+                    <li>Basics in Java</li>
+                    <li>Basics in HTML, CSS and JavaScipt</li>
+                    <li>Basics in Networking</li>
+                    <li>Basics in C</li>
+                </ul>
+                <ul class="cvright"><h2>Certification</h2>
+                    <li>Certificate of Completion: Introduction to Packet Tracer (Issued by: Cisco Networking Academy - 03/2024):
+                        Successfully completed the course, demonstrating proficiency in network
+                        simulation and troubleshooting using Cisco Packet Tracer.
+                    </li>
+                    <li>Verified Nanodegree Certificate in Programming Fundamentals (Issued by: Udacity - 10/2024)
+                        Successfully completed the Programming Fundamentals course,
+                        demonstrating proficiency in core programming concepts and practical
+                        skills.
+                    </li>
+                </ul>
+            </div>
+            <div class="container2">
+                <ul class="cvleft cvfix1"> <h2>Extracurriculars</h2>
+                    <li>Tutoring (01/2022 – 05/2022):
+                        I tutored a ninth grader, shared my notes, helped her with home works,
+                        helped her make suitable schedules and improve her lowest grades.
+                    </li>
+                    <li>Volunteering (11/2021 – 04/2022): At Happy Children's Specialized Clinic
+                        I assisted the medical staff by taking vitals, welcoming and guiding
+                        patients at the reception, preparing blood and stool tests and organizing
+                        patient files.
+                    </li>
+                    <li>Active Member in clubs (Interact Club and Social Service Club 11/2019 – 08/2021):
+                        I was a member of the fund raising committee and was able to prepare
+                        events, games and competitions to raise money for charity and school
+                        equipments. Additionally, I was a volunteer who was able to take care of
+                        children at a children's shelter: help them study, wash and braid their
+                        hair and play with them.
+                    </li>
+                </ul>
+                <ul class="cvfix"><h2>Language</h2>
+                    <li>English - Full professional proficiency</li>
+                    <li>Amharic - Native proficiency</li>
+                </ul>
+            </div>
         </main>
         <footer>
             <p>Contact me at: <a href="mailto:tselotmillion8@gmail.com">tselotmillion8@gmail.com</a></p>
             <p>2024</p>
         </footer>
+        <script src="/src/index.js"></script>
     </body>
 </html>

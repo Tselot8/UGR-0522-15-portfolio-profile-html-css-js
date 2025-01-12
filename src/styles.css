@@ -1,0 +1,799 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    list-style-type: none;
+    max-width: 100%;
+    overflow:hidden;
+}
+.container3{
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    gap: 20px;
+    overflow:hidden;
+    list-style-type: none;
+}
+.container1{
+    display: flex;
+    max-width: 100%;
+    overflow:hidden;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+.phlancontainer1{
+    display: flex;
+    max-width: 100%;
+}
+.container2{
+    display:flex;
+    gap:20px;
+    padding: 0;
+    margin:0;
+    max-width: 100%;
+    overflow:hidden;
+}
+.size{
+    height: 40px;
+    width: 40px;
+}
+header{
+    color:white;
+    width:100%;
+}
+body header ul{
+    justify-content: right;
+    margin-right:2%;
+}
+body{
+    background-color:#0A3347;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    line-height:34px;
+    width:100%;
+    height:auto;
+}
+body nav ul{
+    display:flex;
+    padding-left: 5%;
+}
+body nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+body nav ul li a:hover {
+    transform: scale(1.2);
+}
+body nav ul li{
+    padding-left:2%;
+    padding-right:2%;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1); /* Slightly zoom in the image */
+}
+main{
+    background-color: white;
+    padding-bottom: 1%;
+
+}
+main div ul li{
+    list-style-type: decimal;
+}
+main h1{
+    background-color: #2D7497;
+    color: white;
+    font-size: 48px;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left: 10%;
+}
+h2{
+    padding:0;
+    padding-left:3%;
+    padding-top:2%;
+    margin:0;
+    padding-bottom: 1%;
+    font-size: 40px;
+}
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 34px;
+}
+footer{
+    background-color: #2D7497;
+    color: white;
+    padding:5px;
+    padding-left: 40px;
+}
+.myimage{
+    width:160px;
+    height:160px;
+    margin-left:4%;
+    margin-right:4%;
+    border-right:5px solid #00ABFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.myschoolimage{
+    width:160px;
+    height:160px;
+    border-right:5px solid #00ABFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left:1%;
+    margin-right:1%;
+    margin-bottom: 2%;
+}
+.myschoolimage1{
+    width:160px;
+    height:160px;
+    border-right:5px solid #00ABFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left:1%;
+    margin-right:1%;
+    margin-bottom: 2%;
+}
+.lbox {
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding:1%;
+    padding-left:5%;
+    padding-right:5%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    width: 440%;
+    margin-right: 0%;
+}
+.rbox {
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:20px;
+    padding-right:110px;
+    border-left:400% solid white;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+.mbox{
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-radius: 5px;
+    margin: 0px;
+    margin-bottom: 1%;
+}
+.homefix2{
+    margin-left:5%;
+    padding-left:50px;
+    margin-bottom:3%;
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:20px;
+    padding-right:110px;
+    border-left:400% solid white;
+    margin-bottom: 1%;
+}
+.cvleft{
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding:20px;
+    margin:0px;
+    padding-left:10%;
+    padding-right:10px;
+    margin-bottom: 1%;
+    justify-content: center;
+}
+.cvmbox{
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-radius: 5px;
+    padding:20px;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin:0px;
+    margin-bottom: 1%;
+    width: 120%;
+    justify-content: center;
+}
+.cvright{
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin:0px;
+    margin-bottom: 1%;
+    padding-right:10%;
+    width:130%;
+}
+.container2 ul:hover {
+    background-color: #619cb9;
+    transition: background-color 0.3s;
+}
+
+.educationfix{
+    margin-left:10%;
+    margin-right:10%;
+}
+.cvfix{
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-radius: 5px;
+    padding:20px;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin:0px;
+    margin-bottom: 1%;
+    width: 170%;
+    justify-content: center;
+    width:150%;
+    margin-right:35%;
+}
+.cvfix1{
+    width:170%;
+}
+.hobbiesfix{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.hobbiesfix1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.hobbiesfix2{
+    padding-top:1.3%;
+    padding-bottom:1.3%;
+}
+.hobbiesfix3{
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+}
+.hobbiesleft{
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin:0px;
+    padding-left:8%;
+    margin-bottom: 1%;
+    width: 200%;
+    justify-content: center;
+}
+.hobbiesright{
+    background-color: #9BC6DC;
+    border-top: 5px solid #00ABFF;
+    border-bottom: 5px solid #00ABFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-right:110px;
+    margin-bottom: 1%;
+}
+.videoright{
+    width:20%;
+    height:1%;
+    margin-right:10%;
+    margin-bottom:1%;
+    border-right:5px solid #00ABFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.videoleft{
+    width:20%;
+    height:1%;
+    margin-left:10%;
+    margin-bottom:1%;
+    border-left:5px solid #00ABFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.hobbiesimage{
+    width:18%;
+    height:1%;
+    margin-right:10%;
+    margin-bottom:1%;
+    border-right:5px solid #00ABFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.advimright{
+    width:25.5%;
+    margin-right:10%;
+    border-right:5px solid #00ABFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom:1%;
+}
+.advimleft{
+    width:25.5%;
+    margin-left:10%;
+    border-left:5px solid #00ABFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom:1%;
+}
+.advfix{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.advfix1{
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+}
+
+
+@media(max-width:800px) and (max-height:1280px){
+    *, *::before, *::after{
+        box-sizing: border-box;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 32px;
+        padding-left:6%;
+    }
+    p{
+        font-size:20px;
+        line-height: 32px;
+    }
+    body{
+        width:100%;
+    }
+    main{
+        width:100%;
+    }
+    header ul li{
+        padding: 0.1%;
+    }
+    body nav ul li{
+        font-size:20px;
+        padding-left:4%;
+        padding-right:4%;
+        display:flex;
+    }
+    body nav ul{
+        padding-left:5%;
+        display:flex;
+    }
+    body nav ul li a{
+        display:flex;
+    }
+    .lbox {
+        background-color: #9BC6DC;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-left:2%;
+        padding-right:2%;
+        margin-bottom: 2%;
+        width:95%;
+    }
+    .homefix2{
+        margin-left:5%;
+        padding-left:50px;
+        margin-bottom:3%;
+        background-color: #9BC6DC;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding-left:6%;
+        padding-right:8%;
+        border-left:400% solid white;
+        margin-bottom: 1%;
+    }
+    .myimage{
+        padding-left:3%;
+    }
+    .container1{
+        display:block;
+    }
+    .rbox {
+        background-color: #9BC6DC;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding-right:4%;
+        border-left:400% solid white;
+        margin-left: 5%;
+        margin-bottom:2%;
+    }
+    .educationfix{
+        margin-left:-1%;
+        margin-right:-5%;
+        width:810px;
+    }
+    .edutab{
+        padding-left:9%;
+        margin-right:5%;
+    }
+    .edutab1{
+        padding-right:9%;
+        margin-left:5%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-right:0px;
+    }
+    .myschoolimage{
+        margin-left:9%;
+    }
+    .myschoolimage1{
+        margin-left:9%;
+    }
+    .container2{
+        display:block;
+    }
+    .phlancontainer1{
+        display:block;
+    }
+    .cvleft{
+        padding-left:10%;
+        width:85%;
+    }
+    .cvmbox{
+        background-color: #9BC6DC;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width:83%;
+        margin-left:4%;
+        padding-left:10%;
+    }
+    .cvright{
+        width:83%;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding-left:8%;
+        padding-right:5%;
+    }
+    .cvtpor{
+        margin-left:10%;
+    }
+    .cvfix1{
+        width:83%;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-left:4%;
+        padding-right:3%;
+    }
+    .cvfix{
+        padding-left:10%;
+        margin-right:5%;
+        width:85%;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .container2{
+        width:100%;
+    }
+    .hobbiesfix2{
+        padding-top:1.3%;
+        padding-left:4%;
+    }
+    .advfix{
+        padding-right:4%;
+        padding-bottom:0%;
+    }
+    .advfix1{
+        padding-top: 0.7%;
+        padding-bottom: 0%;
+        padding-left:4%;
+    }
+}
+@media(max-width:1280px){
+    *, *::before, *::after{
+        box-sizing: border-box;
+    }
+    body nav ul{
+        display:flex;
+        width:100%;
+    }
+    body nav ul li a{
+        display:flex;
+    }
+    .container2{
+        display:block;
+    }
+    .phlancontainer1{
+        display:block;
+    }
+    .cvleft{
+        padding-left:10%;
+        width:85%;
+    }
+    .cvmbox{
+        background-color: #9BC6DC;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width:83%;
+        margin-left:18%;
+        padding-left:10%;
+    }
+    .cvright{
+        width:83%;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding-left:8%;
+        padding-right:5%;
+    }
+    .cvtpor{
+        margin-left:10%;
+    }
+    .cvfix1{
+        width:83%;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-left:18%;
+        padding-right:3%;
+    }
+    .cvfix{
+        padding-left:10%;
+        margin-right:5%;
+        width:85%;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .videoright{
+        width:21%;
+        height:1%;
+        margin-right:10%;
+        border-right:5px solid #00ABFF;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .videoleft{
+        width:21%;
+        height:1%;
+        margin-left:10%;
+        border-left:5px solid #00ABFF;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .hobbiesfix2{
+        padding-top:0.1%;
+        padding-bottom:0.1%;
+    }
+    .hobbiesfix{
+        padding-top: 2.7%;
+        padding-bottom: 2.7%;
+    }
+    .hobbiesfix1{
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+    .hobbiesfix3{
+        padding-top: 3.7%;
+        padding-bottom: 3.7%;
+    }
+}
+@media(max-width:956px) and (max-height:440px){
+    *, *::before, *::after{
+        box-sizing: border-box;
+    }
+    body nav ul{
+        display:flex;
+        width:100%;
+    }
+    body nav ul li a{
+        display:flex;
+    }
+    .lbox {
+        background-color: #9BC6DC;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-top:1%;
+        padding-left:5%;
+        padding-right:0%;
+        margin-right:0%;
+        margin-bottom: 2%;
+        width: 400%;
+    }
+    .educationfix{
+        display:block;
+    }
+    .edutab{
+        padding-left:9%;
+        margin-left:-13%;
+    }
+    .edutab1{
+        padding-right:5%;
+        margin-left:-13%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-right:1%;
+        padding-left:9%;
+        }
+    .myschoolimage{
+        margin-left:9%;
+    }
+    .myimage{
+        margin-left:25%;
+    }
+    .phlancontainer1{
+        display: block;
+    }
+    .edutab{
+        padding-top:2%;
+        padding-left:9%;
+        margin-right:-7%;
+    }
+    .myschoolimage{
+        margin-right:-5%;
+    }
+    .myschoolimage1{
+        margin-right:-5%;
+    }
+    .hobbiesleft{
+        background-color: #9BC6DC;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin:0px;
+        padding-left:5%;
+        margin-bottom: 1%;
+        width: 200%;
+        justify-content: center;
+    }
+    .hobbiesright{
+        background-color: #9BC6DC;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding-right:5%;
+        margin-bottom: 1%;
+    }
+    .hobbiesfix{
+        padding-top: 1%;
+        padding-bottom:0%;
+    }
+    .hobbiesfix1{
+        padding-top: 1%;
+        padding-bottom: 0%;
+    }
+    .hobbiesfix2{
+        padding-top:1.3%;
+        padding-bottom:1.3%;
+    }
+    .hobbiesfix3{
+        padding-top: 1%;
+        padding-bottom: 0%;
+    }
+    h2{
+        padding-left:5%;
+        padding-top:2%;
+    }
+}
+@media(max-width:600px){
+    body{
+        width:100%;
+        font-size:15px;
+        line-height:25px;
+    }
+    .lbox {
+        background-color: #9BC6DC;
+        border-top: 5px solid #00ABFF;
+        border-bottom: 5px solid #00ABFF;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        
+    }
+    body nav ul li{
+        margin-left:0%;
+        margin-right:0%;
+        padding-left:0%;
+    }
+    body nav ul{
+        margin-left: 1%;
+    }
+    body nav ul li a{
+        display:flex;
+    }
+    .edutab1{
+        width:96%;
+        padding-left:10%;
+        padding-right:5%;
+        margin-left:-1%;
+    }
+    .cvleft{
+        width:96%;
+        padding-top:0;
+        padding-bottom:0;
+        padding-left:10%;
+    }
+    .cvmbox{
+        width:96%;
+        padding-top:0;
+        padding-bottom:0;
+        padding-left:10%;
+    }
+    .cvright{
+        width:96%;
+    }
+    .cvfix{
+        width:96%;
+        padding-top:0;
+        padding-bottom:0;
+    }
+    .container3{
+        display:block;
+        overflow:hidden;
+    }
+    .hobbiesfix2{
+        width:95%;
+    }
+    .advimright{
+        margin-left:10%;
+    }
+    .advfix{
+        width:96%;
+    }
+    .advfix1{
+        width:96%;
+    }
+    .hobbiesleft{
+        width:96%;
+        padding-left:5%;
+    }
+    .hobbiesright{
+        padding-left:5%;
+    }
+    .videoright{
+        margin-left:10%;
+    }
+    .hobbiesfix1{
+        width:96%;
+    }
+}
